@@ -1,0 +1,20 @@
+{
+  "DemoQA": {
+    "FullName": {
+      "type": "xpath",
+      "locator": "//input[@id='userName']"
+    },
+    "Email": {
+      "type": "id",
+      "locator": "userEmail"
+    },
+    "Current Address": {
+      "type": "css",
+      "locator": "#currentAddress"
+    },
+    "Permanent Address": {
+      "type": "classname",
+      "locator": "btn btn-primary"
+    }
+  }
+}
